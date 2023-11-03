@@ -45,6 +45,9 @@ input[type="text"]{
     padding-left: 1.688rem;
     padding-right: 1.688rem;    
     margin-bottom: 1rem;
+    box-shadow: 0px 6px 10px -1px rgba(222,173,255,0.75);
+    -webkit-box-shadow: 0px 6px 10px -1px rgba(222,173,255,0.75);
+    -moz-box-shadow: 0px 6px 10px -1px rgba(222,173,255,0.75);
 }
 
 ::placeholder{
@@ -57,6 +60,7 @@ input[type="text"]{
 .avatars{
     list-style: none;
     padding: 0;
+    margin: 0;
     display: flex;
 }
 
@@ -66,22 +70,19 @@ li{
 
 input[type="radio"]{
     display: none;
-    transition: 0.3s ease;
 }
 
 label{
-    border: 0.3rem solid transparent;
-    border-radius: 5rem;
     opacity: 0.5;
     cursor: pointer;
-    transition: 0.3s ease;
+    transition: 0.3s ease-in-out;
 }
 
-label img{
+img{
     width: 6rem;
     height: 6rem;
     border-radius: 0.56rem;
-    transition: 0.3s ease;
+    transition: 0.3s ease-in-out;
 }
 
 label:hover{
@@ -91,7 +92,10 @@ label:hover{
 
 input[type="radio"]:checked + label{
     opacity: 1;
-    border-radius: 5rem;
+}
+
+img:hover {
+    transform: scale(1.2)
 }
 
 
@@ -106,6 +110,7 @@ input[type*="submit"]{
     font-weight: 500;
     color: #0C0014;
     background-color: #FFF845;
+    margin-top: 0.75rem;
     margin-bottom: 2rem;
 }
 
