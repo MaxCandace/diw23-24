@@ -1,0 +1,120 @@
+//Webpage font.
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+//Colour palette.
+$light: #F5F2F8;
+$purple-100: #DEADFF;
+$purple-200: #CE85FF;
+$purple-300: #B647FF;
+$purple-400: #24003D;
+$dark: #0C0014;
+//Accent colors.
+$warning: #FFF845;
+$danger: #FF1A1A;
+
+//WEB PAGE STYLE EDITION
+* {
+    font-family: "Inter";
+}
+
+body {
+
+    background-color: $light !important;
+    padding-top: 5rem;
+}
+
+nav {
+
+    background-color: $light !important;
+    color: $dark;
+    font-weight: 500 !important;
+}
+
+.navbar-button{
+
+    border-color: $purple-400;
+    background-color: $purple-400;
+
+}
+
+.img-logo {
+
+    height: 1.875rem !important;
+}
+
+.article-title {
+
+    color: $dark;
+    font-weight: 500 !important;
+}
+
+.divider {
+
+    border-top: 2px solid $purple-100 !important;
+    width: 8rem !important;
+    margin: auto;
+}
+
+.article-text {
+
+    color: $purple-400;
+    font-weight: 400 !important;
+}
+
+.img-content {
+
+    height: 35rem;
+    display: block;
+    margin: auto;
+}
+
+footer {
+
+    background-color: $light;
+    color: $dark;
+    font-weight: 500 !important;
+}
+
+
+.author-name {
+    font-weight: 500 !important;
+    color: $purple-300;
+}
+
+.time-uploaded {
+
+    font-weight: 500 !important;
+    font-style: italic;
+    color: $purple-100;
+}
+
+.author-profile-pic {
+
+    border-radius: 0.56rem;
+    height: 5rem;
+    width: 5rem;
+}
+
+.icon {
+
+    color: $dark;
+}
+
+.star-button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    color: $dark;
+}
+
+.star-button:hover .fa-star {
+    color: $warning;
+}
+
+.star-button:focus .fa-star {
+    color: $warning;
+}

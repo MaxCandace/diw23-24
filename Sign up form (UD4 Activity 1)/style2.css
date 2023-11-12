@@ -3,7 +3,7 @@
     src: url(../Fonts/Inter/Inter.ttf);
 }
 
-/* All the webpage is going to use Intel */
+/* All the webpage is going to use Inter */
 
 * {
     font-family: "Inter";

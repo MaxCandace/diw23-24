@@ -1,0 +1,136 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyeMZg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyfMZg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZg.ttf) format('truetype');
+}
+* {
+  font-family: "Inter";
+}
+body {
+  background-color: #F5F2F8 !important;
+  padding-top: 5rem;
+}
+nav {
+  background-color: #F5F2F8 !important;
+  color: #0C0014;
+  font-weight: 500 !important;
+}
+.navbar-button {
+  border-color: #24003D;
+  background-color: #24003D;
+}
+.img-logo {
+  height: 1.875rem !important;
+}
+.article-title {
+  color: #0C0014;
+  font-weight: 500 !important;
+}
+.divider {
+  border-top: 2px solid #DEADFF !important;
+  width: 8rem !important;
+  margin: auto;
+}
+.article-text {
+  color: #24003D;
+  font-weight: 400 !important;
+}
+.img-content {
+  height: 35rem;
+  display: block;
+  margin: auto;
+}
+footer {
+  background-color: #F5F2F8;
+  color: #0C0014;
+  font-weight: 500 !important;
+}
+.author-name {
+  font-weight: 500 !important;
+  color: #B647FF;
+}
+.time-uploaded {
+  font-weight: 500 !important;
+  font-style: italic;
+  color: #DEADFF;
+}
+.author-profile-pic {
+  border-radius: 0.56rem;
+  height: 5rem;
+  width: 5rem;
+}
+.icon {
+  color: #0C0014;
+}
+.star-button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0;
+  color: #0C0014;
+}
+.star-button:hover .fa-star {
+  color: #FFF845;
+}
+.star-button:focus .fa-star {
+  color: #FFF845;
+}
